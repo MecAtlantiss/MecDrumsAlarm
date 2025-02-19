@@ -54,6 +54,7 @@ local BOSSES = {
     ["Archimonde"] = 1,
     ["High Warlord Naj'entus"] = 1,
     ["Supremus"] = 1,
+    ["Ashtongue Channeler"] = 1,
     ["Shade of Akama"] = 1,
     ["Teron Gorefiend"] = 1,
     ["Gurtogg Bloodboil"] = 1,
