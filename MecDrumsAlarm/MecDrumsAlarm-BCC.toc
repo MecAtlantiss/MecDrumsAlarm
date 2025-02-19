@@ -1,0 +1,27 @@
+## Interface: 20502
+## Title: MecDrumsAlarm
+## Notes: A drum rotation addon for the 2.4.3 and 2.5.2 WoW TBC clients.
+## Author: Mec
+## SavedVariables: MDA_CONFIG
+
+init.lua
+
+TBCC\RegisterPrefixes.lua
+TBCC\API.lua
+
+Core\Player.lua
+Core\Raiders.lua
+Core\Rotation.lua
+Core\MessagesOutgoing.lua
+Core\MessagesIncoming.lua
+Core\DetectPulls.lua
+Core\Commands.lua
+
+Core\EventsDrum.lua
+Core\EventsAddonLoaded.lua
+Core\EventsPlayerLogout.lua
+
+GUI\MasterFrame.lua
+GUI\DetailedLayout.lua
+GUI\Alerts.lua
+GUI\ConfigUI.lua
