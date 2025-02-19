@@ -5,7 +5,7 @@ A drum rotation addon for the 2.4.3 and 2.5.2 WoW TBC clients. In order for this
 
 [Download the ZIP file of the lastest release here and put them into the Addons folder of your WoW installation.](https://github.com/MecAtlantiss/MecDrumsAlarm/releases/latest)
 
-If the addon doesn't appear in-game, then you likely put the wrong folders into your Addons folder.
+If the addon doesn't appear in-game, then you likely put the wrong folder into your Addons folder.
 
 # Commands
 
