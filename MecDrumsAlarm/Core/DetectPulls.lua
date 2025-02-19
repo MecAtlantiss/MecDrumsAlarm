@@ -6,6 +6,7 @@ local BOSSES = {
     ["Doom Lord Kazzak"] = 1,
     ["Doomwalker"] = 1,
     ["Attumen the Huntsman"] = 1,
+    ["Midnight"] = 1,
     ["Mores"] = 1,
     ["Maiden of Virtue"] = 1,
     ["Dorothee"] = 1,
