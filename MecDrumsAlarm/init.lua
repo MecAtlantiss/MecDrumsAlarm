@@ -1,7 +1,7 @@
 local M = {}
 _G["MecDrumsAlarm"] = M
 
-M.version = "1.0"
+M.version = "1.1"
 
 M.API = {}
 M.Player = {}
