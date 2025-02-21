@@ -71,6 +71,7 @@ end
 
 function API:IsUnitInParty(unitName)
     -- Check if the unit is in your party by iterating over all party members
+    if GetNumGroupMembers() == 0 then return false end --player isn't in a party
     if unitName == M.Player.Name then return true end
     for i = 1, GetNumSubgroupMembers() do
         local name = UnitName("party"..i)
