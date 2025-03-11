@@ -7,6 +7,7 @@ local function HandleCombatEvent(_, event, ...)
     local unitName, drumName = API:GetSpellCastSuccessInfo(...)
     if drumName ~= M.Config.drumType then return end
     if not API:IsUnitInParty(unitName) then return end
+    if not API:IsInRaid() then return end
     M.Rotation.timeOfMostRecentDrumming = GetTime()
     M.Raiders.data[unitName].cooldown = 120
     M.Raiders.data[unitName].eligibilityStatus = "Drummed"
