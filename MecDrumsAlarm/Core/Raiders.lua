@@ -52,7 +52,7 @@ function Raiders:CheckAndRecordDisconnectedRaiders()
     for i = 1, API:GetNumGroupMembers() do
         local name = GetRaidRosterInfo(i)
 
-        if name and data[name] ~= nil and data[name].eligibilityStatus ~= nil then
+        if name and data[name] ~= nil and data[name].eligibilityStatus ~= nil and data[name].timeOfLastMessage ~= nil then
             if GetTime() - data[name].timeOfLastMessage > 5 then
                 data[name].eligibilityStatus = "No response"
             end
